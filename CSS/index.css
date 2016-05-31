@@ -1,0 +1,252 @@
+p {
+	font-family: helvetica;
+}
+
+h2 {
+	font-family: georgia;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: arial;
+	font-size: 18px;
+	font-style: italic;
+	color: grey;
+}
+
+h4 {
+	font-color: red;
+	font-size: 25px;
+	font-style: bold;
+}
+
+h5 {
+	font-size: 20px;
+	font-style: italic;
+}
+
+img {
+	max-width: 100%;
+}
+
+.header {
+	background-image: url('../Images/header.jpg');
+	height: 200px;
+	width: 100%;
+	background-size: 100%;
+	background-position: 0px 40px 0px 0px;
+	overflow: hidden;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	vertical-align: top;
+	width: 80%;
+	margin: 0px auto;
+}
+
+.container .head {
+	display: inline-block;
+	vertical-align: top;
+	//width: 990px;
+	margin: 0px auto;
+}
+.container .row .left{
+	display: inline-block;
+	vertical-align: top;
+	align: center;
+	margin: 0px auto;
+}
+
+.col-md-6 .left {
+	display: inline-block;
+	width: 30%;
+}
+
+.col-md-6 .right {
+	display: block;
+}
+
+.middle {
+	border-bottom: solid 2px grey;
+	padding-bottom: 10px;
+}
+
+.text {
+	margin-top: 10px;
+}
+
+.logo {
+	width: auto;
+	max-width: 30%
+}
+
+.footer {
+	display: inline-block;
+	width: 100%;
+}
+
+.footimg {
+	text-align: center;
+	display: block;
+}
+
+.searchBox {
+	padding: 10px 20px;
+	margin-bottom: 10%;
+	text-align: center;
+	border: 4px solid grey;
+}
+.searchBox hover {
+	background-color: orange;
+}
+
+.form {
+	border-top: 2px solid grey;
+}
+
+.form input {
+	margin-top: 20px;
+}
+
+.head, .img, .text, .footimg, .textarea {
+	padding-top: 20px;
+}
+
+.head h2{
+	margin-top: 25px;
+	padding-top: 0;
+}
+
+.row .left img {
+	max-width: 30%;
+	margin-left: 15px;
+	display: block;
+	margin-top: -50px;
+	border: 2px solid white;
+	border-radius: 55%;
+}
+
+.text p {
+	width: 100%;
+}
+
+.footimg {
+	vertical-align: top;
+	margin-left: 0;
+}
+
+.footimg i {
+	font-size: 35px;
+	display: inline-block;
+	padding: 4px;
+	margin-right: 0;
+}
+
+.textarea {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.textarea input {
+	align:right;
+}
+
+.callout {
+	position: fixed;
+	padding: 1.8px;
+	bottom: 10px;
+	right: 6px;
+	width: 300px;
+	z-index: 10;
+	border: 2px solid grey;
+	box-shadow: 0px 0px 5px 0px, rgba(0,0,0,0.5);
+}
+
+.callout .upper, .lower {
+	position: relative;
+	margin-top: 3px;
+
+}
+
+.callouttop {
+	border-bottom: 2px solid grey;
+	display: inline-block;
+	position: relative;
+}
+
+.callouttop i {
+	color: grey;
+	font-size: 21px;
+	position: absolute;
+	top:11px;
+	right:3px;
+}
+
+.lower .calloutbtm {
+	vertical-align: top;
+	margin-top: 5px;
+	margin: 0;
+	padding: 0;
+}
+
+.calloutbtm button {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+}
+
+.lower .calloutbtm {
+	top: 6px;
+	padding-right: 2px;
+}
+.row .calloutbtm {
+	width: relative;
+	margin-top: 4px;
+	padding: 0;
+}
+
+.calloutbtm img {
+	margin-left:3px;
+	box-shadow: 0px 10px 3px 3px, rgba(0,0,0,1)
+}
+
+.calloutbtm .row {
+	margin-left: 16px;
+	padding: 0;
+	text-align: left;
+}
+
+.calloutbtm .row h5 {
+	font-size: 12px;
+}
+
+.calloutbtm .row p {
+	font-size: 9px;
+}
+
+a:link {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
